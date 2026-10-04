@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="./User-Side/styles/index.css">
+  <link rel="stylesheet" href="./User-Side/styles/headerFooter.css">
+  <title>Contact Us - Book My Bus</title>
+  <style>
+    .contact-container { padding: 80px 20px; text-align: center; background: #f8f9fa; min-height: 50vh; }
+    .contact-container h1 { color: #0E9E4D; margin-bottom: 20px; }
+    .contact-details { max-width: 600px; margin: 0 auto; text-align: left; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    .contact-details p { margin-bottom: 15px; font-size: 16px; color: #333; }
+    .contact-details i { color: #0E9E4D; margin-right: 10px; font-size: 20px; width: 24px; text-align: center; }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo"><img src="./User-Side/images/Book_My_Bus_Logo.png" alt=""></div>
+    <div class="menu" id="menu">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="#">Services</a>
+          <ul class="dropdown-content dropdown-toggle">
+            <li><a href="./User-Side/bookTicket.html">Book a Ticket</a></li>
+            <li><a href="./User-Side/bookTicket.html">Find Bus</a></li>
+            <li><a href="./User-Side/ticketStatus.html">Ticket Status</a></li>
+            <li><a href="./User-Side/cancelTicket.html">Cancel Ticket</a></li>
+            <li><a href="./User-Side/feedback.html">Add Feedback</a></li>
+          </ul>
+        </li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li id="profileImg"><img src="./User-Side/images/images.jpeg" alt=""></li>
+        <li><a href="./User-Side/login.html" id="account">Account</a></li>
+        <li id="logout"><div style="border-radius: 5px; padding: 4px; background-color: #0E9E4D;color: white; cursor: pointer;" onclick="logoutUser()">Logout</div></li>
+      </ul>
+    </div>
+    <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+  </div>
+
+  <div class="contact-container">
+    <h1>Contact Our Coimbatore Office</h1>
+    <div class="contact-details">
+      <p><i class="fa-solid fa-location-dot"></i> <strong>Address:</strong> 123 Cross Cut Road, Gandhipuram, Coimbatore, Tamil Nadu 641012</p>
+      <p><i class="fa-solid fa-phone"></i> <strong>Phone:</strong> +91 98765 43210</p>
+      <p><i class="fa-solid fa-envelope"></i> <strong>Email:</strong> contact@bookmybus.coimbatore</p>
+      <p><i class="fa-solid fa-clock"></i> <strong>Working Hours:</strong> 24/7 Customer Support</p>
+    </div>
+  </div>
+
+  <div class="footer-top">
+      <div class="container">
+          <div class="row footer-wrapper gy-sm-5 gy-4">
+              <div class="col-xl-4 col-lg-3 col-md-6 col-sm-6">
+                  <div class="footer-widget">
+                      <div class="footer-logo">
+                          <img class="aei" src="./User-Side/images/Book_My_Bus_Logo.png" alt="Logo">
+                      </div>
+                      <p>We make it possible for you to buy tickets with its large network of trustworthy bus partners ! <br>As humans, we have the urge to explore By travelling you can be closer to the people you love.!</p>
+                  </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                  <div class="footer-widget">
+                      <h4 class="widget-title">Contact Info</h4>
+                      <ul class="footer-contacts">
+                          <li><i class="las la-map-pin"></i> 123 Cross Cut Road, Gandhipuram, Coimbatore, Tamil Nadu 641012</li>
+                          <li><i class="las la-phone-volume"></i> <a href="">+91 98765 43210</a></li>
+                          <li><i class="las la-envelope"></i> <a href="">contact@bookmybus.coimbatore</a></li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <script type="text/javascript" src="./User-Side/scripts/headerFooter.js" ></script>
+  <script type="text/javascript" src="./User-Side/scripts/index.js" ></script>
+</body>
+</html>

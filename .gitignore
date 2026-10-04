@@ -1,0 +1,97 @@
+# Compiled class file
+*.class
+
+# Log files
+*.log
+*.log.*
+*.gz
+
+# Package Files
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Media / Video files
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wmv
+
+# Maven
+target/
+**/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+!/**/.mvn/wrapper/maven-wrapper.jar
+
+# Build output / Eclipse / STS
+bin/
+**/bin/
+.metadata/
+tmp/
+*.tmp
+*.bak
+*.swp
+local.properties
+.settings/
+.loadpath
+.recommenders
+.project
+.classpath
+.factorypath
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+# VS Code
+.vscode/
+
+# DBeaver / DB Tools
+.dbeaver/
+**/.dbeaver/
+
+# Node / Frontend build (if any)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment & Local Secrets
+.env
+.env.local
+*.local
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
